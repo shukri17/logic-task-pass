@@ -26,7 +26,7 @@ for i in range(2,r+1):
         print(i)
 
 #Q1
-#by using  primePy library
+#another solution by using  primePy library
 
 from primePy import primes
 print(primes.check(7))
@@ -34,7 +34,7 @@ print("**********************************************************")
 
 #Q2
 str = "AI 4 Climate "
-print ("Original string: " + str) 
+print (" String: " + str) 
 str2 = str.replace('4', '') 
 print (" String after remove one character : " + str2) 
 
