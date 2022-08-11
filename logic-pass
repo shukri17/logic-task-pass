@@ -1,6 +1,17 @@
 #Mohammed Qasim Kadhim
 
 #Q1
+str = "AI 4 Climate "
+print (" String: " + str) 
+str2 = str.replace('4', '') 
+print (" String after remove one character : " + str2) 
+
+
+
+
+print("**********************************************************")
+
+#Q2
 n=int(input("Enter a Number: "))
 for i in range(2,n):
         if n%2==0:
@@ -10,7 +21,7 @@ for i in range(2,n):
         break
 
 
-#Q1
+#Q2
 """
 Another solution for Q1 
 to Find Prime Numbers
@@ -25,23 +36,14 @@ for i in range(2,r+1):
     if(k<=0):
         print(i)
 
-#Q1
+#Q2
 #another solution by using  primePy library
 
 from primePy import primes
 print(primes.check(7))
 print("**********************************************************")
 
-#Q2
-str = "AI 4 Climate "
-print (" String: " + str) 
-str2 = str.replace('4', '') 
-print (" String after remove one character : " + str2) 
 
-
-
-
-print("**********************************************************")
 
 #Q3
 def count_letter(String):
