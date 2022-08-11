@@ -55,8 +55,8 @@ def count_letter(String):
      if(count > 1 and String[i] != '0'):
         print(String[i],"=",count)
 Str1 = "AI dojo "
-Str2="ccooooo"
-Str3="siiiiiiii"
+Str2="computiq"
+Str3="mosul space"
 print("str1 :")
 count_letter(Str1)
 print("str2 :")
