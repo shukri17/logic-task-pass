@@ -1,0 +1,77 @@
+#Mohammed Qasim Kadhim
+
+#Q1
+n=int(input("Enter a Number: "))
+for i in range(2,n):
+        if n%2==0:
+          print("Not Prime Number")
+        else: 
+          print("Prime Number")
+        break
+
+
+#Q1
+"""
+Another solution for Q1 
+to Find Prime Numbers
+"""
+
+r=int(input("Enter a Number: "))
+for i in range(2,r+1):
+    k=0
+    for j in range(2,i//2+1):
+        if(i%j==0):
+            k=k+1
+    if(k<=0):
+        print(i)
+
+#Q1
+#by using  primePy library
+
+from primePy import primes
+print(primes.check(7))
+print("**********************************************************")
+
+#Q2
+str = "AI 4 Climate "
+print ("Original string: " + str) 
+str2 = str.replace('4', '') 
+print (" String after remove one character : " + str2) 
+
+
+
+
+print("**********************************************************")
+
+#Q3
+def count_letter(String):
+ 
+ for i in range(0, len(String)):
+     count = 1;
+     for j in range(i+1, len(String)):
+       if(String[i] == String[j] and String[i] != ' '):
+          count = count + 1;
+          String = String[:j] + '0' + String[j+1:]
+     if(count > 1 and String[i] != '0'):
+        print(String[i],"=",count)
+Str1 = "AI dojo "
+Str2="ccooooo"
+Str3="siiiiiiii"
+print("str1 :")
+count_letter(Str1)
+print("str2 :")
+count_letter(Str2)
+print("str3 :")
+count_letter(Str3)
+
+
+
+
+
+
+
+
+   
+
+
+          
